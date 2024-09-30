@@ -12,12 +12,15 @@ interface NavGroup {
 
 const navList: NavGroup[] = [
   {
-    key: 'my-test-1',
-    name: '测试 1',
+    key: 'my-app-h5',
+    name: '自制应用-H5平台 （全开源）',
     items: [
-      { text: 'Link 1', link: '#' },
-      { text: 'Link 2', link: '#' },
-      { text: 'Link 3', link: '#' },
+      { text: '我的博客', link: 'https://kljzndx.github.io/blog/' },
+      { text: '彩票号码生成器', link: 'https://kljzndx.github.io/lottery-number-builder/' },
+      { text: '按键手机仿真器', link: 'https://kljzndx.github.io/key-phone/' },
+      { text: '贪吃蛇游戏', link: 'https://kljzndx.github.io/snake-game/' },
+      { text: '打字练习', link: 'https://kljzndx.github.io/da-zi-lian-xi/' },
+      { text: '四则运算表格', link: 'https://kljzndx.github.io/math-table/' },
     ],
   },
   {
