@@ -13,7 +13,7 @@ interface NavGroup {
 const navList: NavGroup[] = [
   {
     key: 'my-app-h5',
-    name: '自制应用-H5平台 （全开源）',
+    name: '自制应用-H5平台',
     items: [
       { text: '我的博客', link: 'https://kljzndx.github.io/blog/' },
       { text: '彩票号码生成器', link: 'https://kljzndx.github.io/lottery-number-builder/' },
