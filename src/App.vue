@@ -7,6 +7,7 @@ interface NavGroup {
   items: Array<{
     text: string,
     link: string,
+    info?: string,
   }>,
 }
 
@@ -45,7 +46,7 @@ const navList: NavGroup[] = [
         <div class="separator"></div>
         <ul class="link-ul">
           <li v-for="item of group.items">
-            <MyLink :text="item.text" :link="item.link"></MyLink>
+            <MyLink :text="item.text" :info="item.info" :link="item.link"></MyLink>
           </li>
         </ul>
       </li>

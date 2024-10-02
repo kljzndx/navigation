@@ -1,12 +1,21 @@
 <script setup lang="ts">
+import { computed } from 'vue';
+
 const props=defineProps<{
     link:string,
     text:string,
+    info?:string,
 }>();
+
+const title=computed(()=>{
+    if (props.info)
+        return props.text + ': ' + props.info;
+    else return undefined;
+})
 </script>
 <template>
     <div>
-        <a class="my-link" :href="props.link">{{ props.text }}</a>
+        <a class="my-link" :title="title" :href="props.link">{{ props.text }}</a>
     </div>
 </template>
 <style scoped>
