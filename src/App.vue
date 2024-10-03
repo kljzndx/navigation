@@ -34,6 +34,17 @@ const navList: NavGroup[] = [
       { text: '有声书播放器', link: 'https://www.microsoft.com/store/apps/9MXKGW577LN7' },
     ],
   },
+  {
+    key: 'mini-tools-win10',
+    name: '实用小工具-win10平台',
+    items: [
+      { text: 'everything', info: '超速文件搜索器', link: 'https://www.voidtools.com/' },
+      { text: 'space-sniffer', info: '磁盘空间嗅探器', link: 'https://sourceforge.net/projects/spacesniffer/' },
+      { text: 'hwinfo', info: '硬件信息查看器', link: 'https://www.hwinfo.com/' },
+      { text: 'watt toolkit', info: 'steam, github 访问加速器', link: 'https://steampp.net/' },
+      { text: 'DiskGenius', info: '专业分区软件', link: 'https://www.diskgenius.cn/' },
+    ],
+  },
 ]
 
 </script>
