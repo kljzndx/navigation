@@ -35,6 +35,17 @@ const navList: NavGroup[] = [
     ],
   },
   {
+    key: 'dev-tools',
+    name: '开发工具',
+    items: [
+      { text: 'git', link: 'https://git-scm.com/' },
+      { text: 'git gui', link: 'https://tortoisegit.org/' },
+      { text: 'visual studio', link: 'https://visualstudio.microsoft.com/' },
+      { text: 'jetbrains', link: 'https://www.jetbrains.com/' },
+      { text: 'android studio', link: 'https://developer.android.google.cn/studio' },
+    ],
+  },
+  {
     key: 'mini-tools-win10',
     name: '实用小工具-win10平台',
     items: [
