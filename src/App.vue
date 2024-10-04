@@ -40,6 +40,7 @@ const navList: NavGroup[] = [
     items: [
       { text: 'git', link: 'https://git-scm.com/' },
       { text: 'git gui', link: 'https://tortoisegit.org/' },
+      { text: 'notepad-- (NPP 平替)', link: 'https://gitee.com/cxasm/notepad--/releases' },
       { text: 'visual studio', link: 'https://visualstudio.microsoft.com/' },
       { text: 'jetbrains', link: 'https://www.jetbrains.com/' },
       { text: 'android studio', link: 'https://developer.android.google.cn/studio' },
