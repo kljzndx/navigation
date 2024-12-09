@@ -21,6 +21,7 @@ const navList: NavGroup[] = [
       { text: '按键手机仿真器', link: 'https://kljzndx.github.io/key-phone/' },
       { text: '贪吃蛇游戏', link: 'https://kljzndx.github.io/snake-game/' },
       { text: '打字练习', link: 'https://kljzndx.github.io/da-zi-lian-xi/' },
+      { text: '写字板', link: 'https://kljzndx.github.io/writing-pad/' },
       { text: '四则运算表格', link: 'https://kljzndx.github.io/math-table/' },
     ],
   },
