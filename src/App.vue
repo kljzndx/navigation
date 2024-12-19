@@ -13,8 +13,8 @@ interface NavGroup {
 
 const navList: NavGroup[] = [
   {
-    key: 'my-app-h5',
-    name: '自制应用-H5平台',
+    key: 'my-app-web',
+    name: '自制应用-web平台',
     items: [
       { text: '我的博客', link: 'https://kljzndx.github.io/blog/' },
       { text: '彩票号码生成器', link: 'https://kljzndx.github.io/lottery-number-builder/' },
@@ -27,7 +27,7 @@ const navList: NavGroup[] = [
   },
   {
     key: 'my-app-uwp',
-    name: '自制应用-UWP平台',
+    name: '自制应用-UWP平台（需下载安装）',
     items: [
       { text: '歌词(lrc字幕)编辑器', link: 'https://www.microsoft.com/store/apps/9MX4FRGQ4RQS' },
       { text: '歌词(lrc字幕)制作器', link: 'https://www.microsoft.com/store/apps/9NWDP77WF36W' },
@@ -48,8 +48,8 @@ const navList: NavGroup[] = [
     ],
   },
   {
-    key: 'mini-tools-win10',
-    name: '实用小工具-win10平台',
+    key: 'mini-tools-win32',
+    name: '实用小工具-win32平台',
     items: [
       { text: 'everything', info: '超速文件搜索器', link: 'https://www.voidtools.com/' },
       { text: 'space-sniffer', info: '磁盘空间嗅探器', link: 'https://sourceforge.net/projects/spacesniffer/' },
